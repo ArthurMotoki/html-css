@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: brown;
+    margin: 0px;
+}
+
+header {
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav {
+    background-color: rgb(209, 209, 209);
+    box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.259);
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: gold;
+}
+
+header > h1 {
+    background-color: chocolate;
+    text-align: center;
+}
+
+main { 
+    background-color: darkred;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px 0px;
+    box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.377);
+}
+
+.carnefoda {
+    background-color: lightsalmon;
+}
+
+aside {
+    text-align: center;
+}
+
+.motivacao {
+    background-color: blueviolet;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+section > article {
+    background-color: burlywood;
+
+}
